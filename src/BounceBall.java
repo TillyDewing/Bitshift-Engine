@@ -7,6 +7,11 @@ public class BounceBall extends GameObject
 		super(x, y, width, height);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public BounceBall(Vector2 position, Vector2 size)
+	{
+		super(position,size);
+	}
 
 	@Override
 	void Update() {
