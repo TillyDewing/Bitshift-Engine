@@ -36,6 +36,7 @@ public class Game
 	public void InstatiateGameObject(GameObject object)
 	{
 		objects.add(object);
+		object.Start();
 	}
 	
 	public void Render()

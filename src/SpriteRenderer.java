@@ -34,7 +34,7 @@ public class SpriteRenderer
 		
 		try
 		{
-			texture = object.spriteRenderer.sprite;
+			texture = object.sprite;
 		}
 		catch(NullPointerException e)
 		{
